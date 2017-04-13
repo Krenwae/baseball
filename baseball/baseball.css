@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+}
+
+.park {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  border-radius: 10px
+  position: relative;
+  box-shadow: 0 3px 5px rgba(0,0,0,1);
+  background: repeating-linear-gradient(45deg, #1B562B, #127B34 55px, #146E30 55px, #176711 55px)
+}
+
+.field {
+  width: 750px;
+  height: 750px;
+  background-color: transparent;
+  position: absolute;
+  left: 50px;
+  overflow: hidden;
+}
+
+.infield {
+  background-color: brown;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+
+.infieldGrass {
+  background-color: green;
+  width: 340px;
+  height: 340px;
+  position: relative;
+  left: 15px;
+  bottom: 5px;
+}
+
+ .bag {
+   width: 14px;
+   height: 14px;
+   background-color: white;
+   position: absolute;
+ }
