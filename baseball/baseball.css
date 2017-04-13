@@ -6,10 +6,11 @@ body {
   width: 800px;
   height: 800px;
   margin: 0 auto;
-  border-radius: 10px
+  border-radius: 10px;
   position: relative;
   box-shadow: 0 3px 5px rgba(0,0,0,1);
-  background: repeating-linear-gradient(45deg, #1B562B, #127B34 55px, #146E30 55px, #176711 55px)
+  background: repeating-linear-gradient(45deg, #1B562B, #127B34 55px, #146E30 55px, #176711 55px);
+  /*transform: rotate(-45deg) skew(30deg, 30deg);*/
 }
 
 .field {
@@ -45,3 +46,64 @@ body {
    background-color: white;
    position: absolute;
  }
+
+.firstSecond {
+  width: 800px;
+  height: 800px;
+  background-color: brown;
+  position: absolute;
+  border-radius: 1000px;
+  bottom: -270px;
+  left: -270px;
+  z-index: 1;
+}
+
+.homePlate {
+  background-color: brown;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  border-radius: 50px;
+  z-index: 3;
+}
+
+.homePlate .bag {
+  top: 24px;
+  left: 30px;
+}
+
+.battersBox {
+  border: 2px solid white;
+  width: 19px;
+  height: 10px;
+  position: relative;
+  transform: rotateZ(135deg);
+}
+
+.battersBox.left {
+  left: 8px;
+  bottom: -22px;
+}
+
+.battersBox.right {
+  left: 28px;
+  bottom: -30px;
+}
+
+.firstBase {
+  background-color: brown;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 3;
+  right: -30px;
+  bottom: -10px;
+}
+
+.firstBase .bag {
+  left: 25px;
+  top: 17px;
+}
